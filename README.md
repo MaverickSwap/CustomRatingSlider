@@ -23,7 +23,7 @@ struct ContentView: View {
     @State var selectedRating = 4
     
     var body: some View {
-        RatingSlider(selectedVote: $rate, ratingToAvoid: 5)
+        RatingSlider(selectedVote: $selectedRating, ratingToAvoid: 5)
     }
 }
 ```
