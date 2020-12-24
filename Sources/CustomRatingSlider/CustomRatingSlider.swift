@@ -11,6 +11,12 @@ public struct RatingSlider : View {
     var circleHighlighterColor : Color = .green
     @Namespace var circleHighlight
     
+    public init(selectedVote : Binding<Int>, ratingToAvoid : Int, circleHighlighterColor : Color = .green) {
+        self._selectedVote = selectedVote
+        self.ratingToAvoid = ratingToAvoid
+        self.circleHighlighterColor = circleHighlighterColor
+    }
+    
     public var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 100, style: .continuous)
