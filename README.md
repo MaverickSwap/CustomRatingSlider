@@ -1,3 +1,2 @@
 # CustomRatingSlider
-
-A description of this package.
+Custom Rating Slider in SwiftUI
