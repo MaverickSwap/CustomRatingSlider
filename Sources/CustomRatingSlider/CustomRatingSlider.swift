@@ -11,7 +11,7 @@ public struct RatingSlider : View {
     var circleHighlighterColor : Color = .green
     @Namespace var circleHighlight
     
-    var body: some View {
+    public var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 100, style: .continuous)
                 .fill(Color.gray.opacity(0.2))
