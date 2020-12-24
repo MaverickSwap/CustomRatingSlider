@@ -22,7 +22,6 @@ struct CustomRatingSlider : View {
                 Spacer()
                 
                 ForEach(1..<11) { id in
-                    
                     ZStack {
                         if selectedVote == id {
                             Circle()
@@ -36,6 +35,7 @@ struct CustomRatingSlider : View {
                             .foregroundColor( selectedVote == id ? .white : .black)
                             .font(.system(size: 10))
                             .fontWeight(selectedVote == id ? .bold : .regular)
+                            // Handle Tap Gesture
                             .onTapGesture {
                                 withAnimation(.easeOut) {
                                     if id != ratingToAvoid {
@@ -48,7 +48,6 @@ struct CustomRatingSlider : View {
                         Spacer()
                     }
                 }
-                
                 Spacer()
             }
             .padding()
