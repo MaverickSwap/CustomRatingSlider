@@ -1,8 +1,6 @@
 # CustomRatingSlider
 Custom Rating Slider in SwiftUI
 
-![RatingSlider](https://user-images.githubusercontent.com/24572733/103080822-aa874900-45fc-11eb-9ef8-5aeeca82cfd7.png)
-
 ![rating-slider](https://user-images.githubusercontent.com/24572733/103082192-8d07ae80-45ff-11eb-8c35-adc59199ab38.gif)
 # Features
 
