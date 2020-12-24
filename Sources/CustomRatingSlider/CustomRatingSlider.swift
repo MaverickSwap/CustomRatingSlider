@@ -4,7 +4,7 @@ import SwiftUI
 
 // CUSTOM RATING SLIDER FOR DISCRETE VALUES
 //
-struct CustomRatingSlider : View {
+struct RatingSlider : View {
     
     @Binding var selectedVote : Int
     var ratingToAvoid : Int
